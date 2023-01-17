@@ -7483,7 +7483,11 @@ a, button {
     background-color: #405189;
     color: #fff
 }
-
+.my-table th {
+    background-image: url('path/to/arrow-image.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
 .nav-customs.nav .nav-link.active {
     z-index: 1
 }
@@ -7492,6 +7496,15 @@ a, button {
     font-weight: 600
 }
 
+.thtop{
+    margin-top: 20px
+}
+.iconArrow{
+    font-size: 20px;
+}
+.tharrow{
+
+}
 .table .table-light {
     color: #212529;
     border-color: var(--vz-border-color);
@@ -7593,7 +7606,7 @@ a, button {
 
 .table .form-check {
     padding-left: 0;
-    margin-bottom: 0
+    margin-bottom: 20px
 }
 
 .table .form-check .form-check-input {
@@ -11941,7 +11954,9 @@ table.dataTable > tbody > tr.child span.dtr-title {
 .table-card div.dataTables_wrapper div.dataTables_filter label {
     display: block
 }
-
+th {
+    white-space: nowrap;
+}
 div.dtr-modal div.dtr-modal-display {
     background-color: var(--vz-modal-bg);
     border-color: var(--vz-border-color);
